@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Swap Market | Contact</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="header">
+    <div class="container">
+      <div class="topbar">
+        <a class="brand" href="index.html">
+          <img class="logo" src="images/logo.png" alt="Swap Market logo" />
+          <h1 class="site-name">Swap Market</h1>
+        </a>
+
+        <input class="nav-toggle" type="checkbox" id="nav-toggle" />
+        <label class="nav-toggle-label" for="nav-toggle">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="hamburger" aria-hidden="true"></span>
+        </label>
+
+        <nav class="nav" aria-label="Primary">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="services.html">Services</a>
+          <a class="nav-link" href="contact.html" aria-current="page">Contact</a>
+        </nav>
+      </div>
+
+      <div class="header-intro">
+        <p class="pill">We’ll get back to you</p>
+        <h2 class="header-title">Contact</h2>
+        <p class="header-text">Send a message and we’ll respond as soon as possible.</p>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content" class="main">
+    <h2 class="section-title">Message us</h2>
+
+    <!-- Accessible form: labels are tied to inputs -->
+    <form class="form" action="#" method="post">
+      <div class="field">
+        <label for="name">Full name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required />
+      </div>
+
+      <div class="field">
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" autocomplete="email" required />
+        <p class="hint">We’ll only use this to reply.</p>
+      </div>
+
+      <div class="field">
+        <label for="topic">Topic</label>
+        <input id="topic" name="topic" type="text" placeholder="Account, safety, or general question" />
+      </div>
+
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+      </div>
+
+      <button class="button" type="submit">Send message</button>
+      <p class="hint">Form submission is a placeholder for class—no data is actually sent.</p>
+    </form>
+
+    <h2 class="section-title">Other ways to reach us</h2>
+    <p class="text">
+      Email: <a href="mailto:support@swapmarket.com">support@swapmarket.com</a><br />
+      Hours: Mon–Fri, 9 AM–5 PM
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Swap Market</p>
+    </div>
+  </footer>
+<script src="./script.js" defer></script>
+
+</body>
+</html>
